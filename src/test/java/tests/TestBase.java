@@ -8,6 +8,5 @@ public class TestBase {
     static void beforeAllSetup() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = false;
     }
 }
