@@ -24,7 +24,7 @@ public void testNameIsssue () {
 
         $(linkText("JuliaOshmarina/Lesson8")).click();
         $("#issues-tab").click();
-        $("#issue_1_link").shouldHave(text("Lesson8"));
+        $("[class~=ListView-module__ul--vMLEZ]").shouldHave(text("Lesson8"));
 
     }
 }

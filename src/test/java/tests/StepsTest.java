@@ -38,7 +38,7 @@ public class StepsTest {
         });
 
         step("Проверяем наличие Issue с номером " + NAMEISSUE, () -> {
-            $("#issue_1_link").shouldHave(text( NAMEISSUE));
+            $("[class~=ListView-module__ul--vMLEZ]").shouldHave(text( NAMEISSUE));
         });
     }
 

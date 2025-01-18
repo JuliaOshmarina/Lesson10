@@ -39,7 +39,7 @@ public class WebSteps
 
     @Step("Проверяем наличие Issue с названием {issue}")
     public void shouldSeeIssueWithName(String issue) {
-        $("#issue_1_link").shouldHave(text(issue));
+        $("[class~=ListView-module__ul--vMLEZ]").shouldHave(text(issue));
     }
 
 
